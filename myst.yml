@@ -21,6 +21,8 @@ project:
 site:
   template: "book-theme"
   actions:
+    - title: "GeoJupyter home"
+      url: "https://geojupyter.org"
     - title: "View source"
       url: *repo-url
   options:
