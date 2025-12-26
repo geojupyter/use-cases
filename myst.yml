@@ -1,0 +1,30 @@
+version: 1
+
+project:
+  title: "GeoJupyter Use Cases"
+  description: >-
+    A depository of geospatial data use cases that need new or improved (e.g.
+    more open, more reproducible, more joyful, less cognitive load) workflows
+  # keywords: []
+  # authors: []
+  license: "MIT"
+  github: &repo-url "https://github.com/geojupyter/use-cases"
+
+  exclude:
+    - "_*"
+    - "README.md"
+  toc: 
+    - file: "index.md"
+    - pattern: "*/index.md"
+
+
+site:
+  template: "book-theme"
+  actions:
+    - title: "View source"
+      url: *repo-url
+  options:
+    style: "assets/styles/style.css"
+    # favicon: favicon.ico
+    # logo: site_logo.png
+    logo_text: "GeoJupyter Use Cases"
