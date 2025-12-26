@@ -32,13 +32,17 @@ In your new branch on your fork:
 
 * Add a new use case directory to the root of this repository
 * Create an `index.md` file within
-* Ensure your document has a descriptive and concise title at the first line, in
-  sentence case, e.g.:
+* Ensure your document has a descriptive and concise title (`h1` header) at the first
+  line, in sentence case, e.g.:
 
   ```markdown
   # My use case title
   ```
 
+* Have two `h2` sub-headers: `## Current situation` (describe the problem) and
+  `## Proposed improvement` (describe a potential solution).
+  The "proposed improvement" header can have multiple options as `h3` headers, e.g.
+  `### Option A`, `### Option B`, etc.
 * If you have any ancillary files, e.g. diagrams, screenshots, sketches, or animations,
   to go with your use case, include those in your new use case directory.
 
