@@ -21,7 +21,7 @@ Prototype: <https://github.com/geojupyter/jupyter-microgis>
     * Dot density: ...
     * Cartogram: Maybe?
 * Support some symbology customization
-    * Each symbology option provides sensible defauls and allows for detailed
+    * Each symbology option provides sensible defaults and allows for detailed
       customization if desired.
       The point isn't to help people make maps for publication, though.
       We're choosing to trade off user control so we can have a simpler API.
